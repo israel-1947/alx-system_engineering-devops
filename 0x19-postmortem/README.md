@@ -1,5 +1,7 @@
 0x19 - Postmortem
+
 Issue Summary
+
 The web-01 server was down for six hours between 12PM EAT and 6AM EAT.
 
 All services on the web server were inaccessible but the load balancer was still sending half of the user traffic to the server affecting about 50% of users that requested our services during the downtime.
